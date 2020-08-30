@@ -7,17 +7,17 @@ namespace aracellion.Items
 	{
 		public override void SetStaticDefaults() 
 		{
-			// DisplayName.SetDefault("aracellionsword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("This is a basic modded sword.");
+			DisplayName.SetDefault("The Aracellion Sword");
+			Tooltip.SetDefault("It shimmers in the dark, but it's full power has yet to be revealed");
 		}
 
 		public override void SetDefaults() 
 		{
-			item.damage = 50;
+			item.damage = 70;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
-			item.useTime = 20;
+			item.useTime = 4;
 			item.useAnimation = 20;
 			item.useStyle = 1;
 			item.knockBack = 6;
